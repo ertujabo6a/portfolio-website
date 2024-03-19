@@ -100,7 +100,7 @@ const Navbar = () => {
                 </Link>
             </div>
             {/* RESPONSIVE MENU */}
-            <div className="md:hidden">
+            <div className="">
                 {/* MENU BUTTON */}
                 <button className="w-10 h-8 flex flex-col justify-between z-50 relative"
                         onClick={()=>setOpen((prev) => !prev)}
